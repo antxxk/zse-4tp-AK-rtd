@@ -12,23 +12,23 @@ Akapit informacyjny
 
 .. note::
 
-   To jest notatka
+   notatka
 
 .. tip::
 
-   Krótka porada
+   porada
 
 Kod
 ---
 
-Kod w linii: ``print("przykład!")``
+Kod w linii: ``print("elo!")``
 
 Kod blokowy:
 
 .. code-block:: python
 
    print("przykładowy kod")
-   x = 42
+   x = 67
    print(x)
 
 Odnośniki

@@ -1,6 +1,5 @@
-﻿# Configuration file for the Sphinx documentation builder.
-
-project = 'Przykładowy Projekt'
+# Configuration file for Sphinx
+project = 'Przyk�adowy Projekt'
 author = 'Antoni Karkoszka'
 release = '1.0'
 

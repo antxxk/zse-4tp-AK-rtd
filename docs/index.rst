@@ -1,11 +1,11 @@
-ÔªøStrona g≈Ç√≥wna
+Strona g≥Ûwna
 =============
 
 .. toctree::
    :maxdepth: 2
-   :caption: Spis tre≈õci
+   :caption: Spis treúci
 
    skladnia
    autor
 
-Witaj w dokumentacji przyk≈Çadowego projektu!
+Witaj w dokumentacji przyk≥adowego projektu!

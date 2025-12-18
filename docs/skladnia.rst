@@ -1,7 +1,7 @@
-ÔªøSk≈Çadnia dokumentu
+Sk≥adnia dokumentu
 ==================
 
-Nag≈Ç√≥wki
+Nag≥Ûwki
 --------
 
 - Poziom 1: ==============
@@ -12,28 +12,28 @@ Nag≈Ç√≥wki
 Akapity
 --------
 
-To jest zwyk≈Çy akapit tekstowy.
+To jest zwyk≥y akapit tekstowy.
 
 .. note::
    To jest akapit informacyjny (Note).
 
 .. tip::
-   To jest akapit z poradƒÖ (Tip).
+   To jest akapit z poradπ (Tip).
 
 Fragmenty kodu
 --------------
 
-- Liniowy: ``print("Hello World")``
+- Liniowy: `print(\"Hello World\")`
 - Blokowy::
 
    def funkcja():
-       print("Kod w bloku")
+       print(\"Kod w bloku\")
 
-Odno≈õniki
+Odnoúniki
 ----------
 
-- Lokalny: :doc:`index`
-- Zewnƒôtrzny: `Google <https://www.google.com>`_
+- Lokalny: :doc:index
+- ZewnÍtrzny: Google <https://www.google.com>_
 
 Listy
 -----
@@ -58,7 +58,7 @@ Tabela
 ------
 
 +----------------+----------------+
-| Nag≈Ç√≥wek 1     | Nag≈Ç√≥wek 2     |
+| Nag≥Ûwek 1     | Nag≥Ûwek 2     |
 +================+================+
-| Kom√≥rka 1      | Kom√≥rka 2      |
+| KomÛrka 1      | KomÛrka 2      |
 +----------------+----------------+

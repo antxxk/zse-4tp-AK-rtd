@@ -1,101 +1,91 @@
-Skladnia
-================================
 
-naglowki (poziomy 1-4)
-----------------------
-
-naglowek 1:
-===========
-
-naglowek 2:
------------
-
-naglowek 3:
-~~~~~~~~~~~
-
-naglowek 4:
+Nagłówek 4:
 ^^^^^^^^^^^
 
-akapit tekstowy
+Akapit tekstowy
 ----------------
 
+To jest zwykły akapit tekstu w reStructuredText (rst).
 
-to jest zwykly akapit tekstu w rst
-
-akapit informacyjny
+Akapit informacyjny
 --------------------
 
 .. note::
 
-  notatka
+   To jest notatka
 
 .. tip::
 
- porada
+   Krótka porada
 
-kod
+Kod
 ---
 
-kod liniowy: ``print("cos!")``
+Kod w linii: ``print("przykład!")``
 
-kod blokowy:
+Kod blokowy:
 
 .. code-block:: python
 
-   print("cos tam jakis kod")
-   x = 5
+   print("przykładowy kod")
+   x = 42
    print(x)
 
-odnośniki
+Odnośniki
 ---------
 
-zewnętrzny link:  
-`read the docs <https://readthedocs.org>`_
+Zewnętrzny link:  
+`Read the Docs <https://readthedocs.org>`_
 
-lokalny link:  
+Lokalny link:  
 :doc:`autor`
 
-listy
+Listy
 ------
 
-lista wypunktowana:
+Lista wypunktowana:
 
-- element 1
-- element 2
-- element 3
+- element pierwszy
+- element drugi
+- element trzeci
 
-lista numerowana:
+Lista numerowana:
 
-1. pierwszy
-2. drugi
-3. trzeci
+1. pierwszy punkt
+2. drugi punkt
+3. trzeci punkt
 
-lista definicji:
+Lista definicji:
 
 termin 1
-   opis terminu 1
+   opis dla terminu 1
 
 termin 2
-   opis terminu 2
+   opis dla terminu 2
 
-obraz
+Obraz
 -----
 
 .. image:: obrazek.png
-   :alt: opis alternatywny obrazka
+   :alt: alternatywny opis obrazka
    :align: center
    :figwidth: 300px
-   :figcaption: podpis 
-  
-tabela
+   :figcaption: podpis obrazka
+
+Tabela
 ------
 
 .. list-table::
    :header-rows: 1
 
-   * - kolumna 1
-     - kolumna 2
-   * - wartosc 1
-     - wartosc 2
-   * - wartosc 3
-... (Pozostałe wiersze: 2)
+   * - Kolumna 1
+     - Kolumna 2
+   * - Wartość 1
+     - Wartość 2
+   * - Wartość 3
+     - Wartość 4
+... (pozostałe wiersze: 2)
+
+---
+
+Jeśli chcesz, papi, mogę też zrobić **bardziej “estetyczną” wersję** z lekkimi zmianami w układzie i stylu nagłówków, żeby wyglądało nowocześniej. Chcesz, żebym tak zrobił?

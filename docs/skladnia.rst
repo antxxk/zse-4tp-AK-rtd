@@ -1,64 +1,101 @@
-Sk³adnia dokumentu
-==================
+Skladnia
+================================
 
-Nag³ówki
---------
+naglowki (poziomy 1-4)
+----------------------
 
-- Poziom 1: ==============
-- Poziom 2: -------------
-- Poziom 3: ^^^^^^^^^^^^
-- Poziom 4: ~~~~~~~~~~~~
+naglowek 1:
+===========
 
-Akapity
---------
+naglowek 2:
+-----------
 
-To jest zwyk³y akapit tekstowy.
+naglowek 3:
+~~~~~~~~~~~
+
+naglowek 4:
+^^^^^^^^^^^
+
+akapit tekstowy
+----------------
+
+
+to jest zwykly akapit tekstu w rst
+
+akapit informacyjny
+--------------------
 
 .. note::
-   To jest akapit informacyjny (Note).
+
+  notatka
 
 .. tip::
-   To jest akapit z porad¹ (Tip).
 
-Fragmenty kodu
---------------
+ porada
 
-- Liniowy: `print(\"Hello World\")`
-- Blokowy::
+kod
+---
 
-   def funkcja():
-       print(\"Kod w bloku\")
+kod liniowy: ``print("cos!")``
 
-Odnoœniki
-----------
+kod blokowy:
 
-- Lokalny: :doc:index
-- Zewnêtrzny: Google <https://www.google.com>_
+.. code-block:: python
 
-Listy
+   print("cos tam jakis kod")
+   x = 5
+   print(x)
+
+odnoÅ›niki
+---------
+
+zewnÄ™trzny link:  
+`read the docs <https://readthedocs.org>`_
+
+lokalny link:  
+:doc:`autor`
+
+listy
+------
+
+lista wypunktowana:
+
+- element 1
+- element 2
+- element 3
+
+lista numerowana:
+
+1. pierwszy
+2. drugi
+3. trzeci
+
+lista definicji:
+
+termin 1
+   opis terminu 1
+
+termin 2
+   opis terminu 2
+
+obraz
 -----
 
-- Wypunktowana:
-  * Element 1
-  * Element 2
-
-- Numerowana:
-  1. Pierwszy
-  2. Drugi
-
-Obrazy
-------
-
-.. image:: obraz.png
-   :alt: Alternatywny tekst
+.. image:: obrazek.png
+   :alt: opis alternatywny obrazka
    :align: center
-   :width: 200px
-
-Tabela
+   :figwidth: 300px
+   :figcaption: podpis 
+  
+tabela
 ------
 
-+----------------+----------------+
-| Nag³ówek 1     | Nag³ówek 2     |
-+================+================+
-| Komórka 1      | Komórka 2      |
-+----------------+----------------+
+.. list-table::
+   :header-rows: 1
+
+   * - kolumna 1
+     - kolumna 2
+   * - wartosc 1
+     - wartosc 2
+   * - wartosc 3
+... (PozostaÅ‚e wiersze: 2)

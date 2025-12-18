@@ -1,4 +1,5 @@
-o autorze
+Autor
 =========
 
-Rafał Zagórowski 4tp
+Antek Karkoszka 4Tp 
+Pozdroo

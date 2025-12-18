@@ -1,23 +1,16 @@
-﻿Składnia elementów dokumentu
-============================
+﻿Składnia dokumentu
+==================
 
 Nagłówki
 --------
 
-Nagłówek 1
-===========
-
-Nagłówek 2
------------
-
-Nagłówek 3
-~~~~~~~~~~~
-
-Nagłówek 4
-^^^^^^^^^^
+- Poziom 1: ==============
+- Poziom 2: -------------
+- Poziom 3: ^^^^^^^^^^^^
+- Poziom 4: ~~~~~~~~~~~~
 
 Akapity
--------
+--------
 
 To jest zwykły akapit tekstowy.
 
@@ -25,58 +18,47 @@ To jest zwykły akapit tekstowy.
    To jest akapit informacyjny (Note).
 
 .. tip::
-   To jest wskazówka (Tip).
+   To jest akapit z poradą (Tip).
 
-Kod
----
+Fragmenty kodu
+--------------
 
-Liniowy: `print( Hello World)`
+- Liniowy: ``print("Hello World")``
+- Blokowy::
 
-Blokowy:
-.. code-block:: python
-
-   def hello():
-       print(Hello World)
+   def funkcja():
+       print("Kod w bloku")
 
 Odnośniki
 ----------
 
-Zewnętrzny: Google <https://www.google.com>_
-
-Lokalny: :doc:utor
+- Lokalny: :doc:`index`
+- Zewnętrzny: `Google <https://www.google.com>`_
 
 Listy
 -----
 
-Numerowana:
+- Wypunktowana:
+  * Element 1
+  * Element 2
 
-1. Pierwszy element
-2. Drugi element
+- Numerowana:
+  1. Pierwszy
+  2. Drugi
 
-Wypunktowana:
+Obrazy
+------
 
-- Punkt A
-- Punkt B
-
-Listy definicji:
-
-Pojęcie
-   Opis pojęcia
-
-Obraz
------
-
-.. image:: obrazek.png
-   :alt: Przykładowy obraz
+.. image:: obraz.png
+   :alt: Alternatywny tekst
    :align: center
-   :width: 400px
+   :width: 200px
 
 Tabela
 ------
 
-=====  =====
-Kol1   Kol2
-=====  =====
-A      B
-C      D
-=====  =====
++----------------+----------------+
+| Nagłówek 1     | Nagłówek 2     |
++================+================+
+| Komórka 1      | Komórka 2      |
++----------------+----------------+

@@ -1,9 +1,15 @@
-# Configuration file for Sphinx
-project = 'Przyk�adowy Projekt'
-author = 'Antoni Karkoszka'
-release = '1.0'
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
-extensions = []
+project = 'Read the docs'
+author = ' Rafał Zagórowski'
+
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.todo',
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
